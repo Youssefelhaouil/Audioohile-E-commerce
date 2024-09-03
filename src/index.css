@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.homeHero{
+    background-image: url("src/assets/HomeHero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:1024px) {
+    .homeHero{
+      background: url('src/assets/LgHero.png')no-repeat center center/cover;
+    }
+  
+  }

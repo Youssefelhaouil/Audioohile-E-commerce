@@ -20,7 +20,7 @@ export default {
         sans: ['Manrope', 'sans-serif'],
       },
       fontSize: {
-        'h1': ['56px', { lineHeight: '58px', letterSpacing: '2px' }], 
+        'h1': ['52px', { lineHeight: '58px', letterSpacing: '2px' }], 
         'h2': ['40px', { lineHeight: '44px', letterSpacing: '1.5px' }], 
         'h3': ['32px', { lineHeight: '36px', letterSpacing: '1.15px' }],
         'h4': ['28px', { lineHeight: '38px', letterSpacing: '2px' }],
@@ -56,7 +56,7 @@ export default {
         'mega': '58px',
       },
       screens: {
-        'sm': { 'max': '320px' },    // Mobile screen size
+        'sm': { 'max': '500px' },    // Mobile screen size
         'md': { 'max': '800px' },    // Tablet screen size (if needed)
         'lg': { 'max': '1024px' },   // Desktop screen size
         'xl': { 'max': '1440px' },   // Large desktop screen size

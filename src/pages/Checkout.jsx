@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../compenents/Header'
 
 function Checkout() {
   return (
     <>
-    <h1>Hello Checkout</h1>
+      <div className=' bg-black'>
+        <Header />
+      </div>
     </>
   )
 }

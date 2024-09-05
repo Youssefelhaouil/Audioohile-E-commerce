@@ -23,7 +23,7 @@ function Footer() {
             </h1>
             <p>Copyright 2024. All rights Reserved</p>
           </div>
-          <div className='flex md:justify-center  gap-4  text-2xl pr-[50px] md:pr-[160px] text-center md:pt-4   '>
+          <div className='flex md:justify-center  gap-4  text-2xl pr-[50px] md:pr-[120px] text-center md:pt-4   '>
             <FaFacebookSquare className='text-white hover:text-accent-orange cursor-pointer' />
             <FaXTwitter className='text-white hover:text-accent-orange cursor-pointer'/>
             <AiFillInstagram className='text-white hover:text-accent-orange cursor-pointer'/>

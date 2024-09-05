@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import Nav from "./Nav"
 import Cart from './Cart';
+import ProductCategory from './ProductCategory';
 
 
 
@@ -15,13 +16,13 @@ function Header() {
 
   return (
     <>
-      <div className='pt-8 px-[165px] lg:px-6  flex justify-between border-b-2 border-gray-200 pb-8 z-10  '>
+      <div className=' pt-8 px-[165px] lg:px-6  flex justify-between border-b-2 border-gray-200 pb-8 z-20  '>
         <div className='flex  gap-8 '>
           {menu ?
-            <MdClose onClick={() => setMenu(!menu)}
+            <MdClose onClick={() => setMenu(false)}
               className=' hidden lg:block lg:font-bold lg:text-h4 lg:text-white cursor-pointer' />
             :
-            <GiHamburgerMenu onClick={() => setMenu(!menu)}
+            <GiHamburgerMenu onClick={() => setMenu(true)}
               className=' hidden lg:block lg:font-bold lg:text-h4 lg:text-white cursor-pointer' />
           }
           <img src={logo} alt="logo" height={25} width={143} />
@@ -36,6 +37,15 @@ function Header() {
           </div>
         }
       </div>
+      {
+        menu &&
+        <div className='sticky top-0 left-0 right-0 bottom-0 bg-black z-10 '>
+
+          <ProductCategory />
+
+
+        </div>
+      }
 
 
 

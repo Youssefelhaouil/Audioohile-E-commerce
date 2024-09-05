@@ -8,7 +8,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 function ProductCategory() {
     return (
         <>
-            <div className='h-[284px] w-full lg:h-auto flex items-end gap-8 md:flex-col px-[165px] lg:px-[24px] mt-[80px] md:mt-[50px]'>
+            <div className='bg-white h-[284px] w-full lg:h-auto flex items-end gap-8 md:flex-col px-[165px] lg:px-[24px] mt-[80px] md:mt-[50px]'>
                 <div className='h-[204px] w-full  bg-light-gray-1 flex flex-col items-center gap-8 md:gap-4 '>
                     <img src={Headphone} alt="HeadPhone image" className='w-[102px] h-[140px] lg:h-[130px] md:w-[92px] mt-[-90px] md:mt-[-30px] drop-shadow-[0_55px_30px_black]  ' />
                     <h1 className=' font-sans text-h6 font-bold lg:text-[15px] mt-6'>HEADPHONES</h1>

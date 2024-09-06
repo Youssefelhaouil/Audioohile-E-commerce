@@ -5,7 +5,7 @@ function ProductCard({ name, img, description, type, id, newProduct }) {
     <>
       <div className='h-[520px] lg:h-[350px] w-1/2 lg:w-full bg-light-gray-2 rounded-md flex justify-center items-center'>
         <img src={img} alt={{ name } + { type }} 
-        className={`w-[300px] h-[350px] lg:h-[240px] lg:w-[210px] ${type === "EARPHONES" && "w-[280px] h-[280px] lg:h-[240px] lg:w-[240px]" } `} />
+        className={`w-[300px] h-[350px] lg:h-[240px] lg:w-[210px] ${type === "EARPHONES" && "w-[270px] h-[260px] lg:h-[240px] lg:w-[240px]" } `} />
       </div>
       <div className='w-1/2 flex flex-col gap-4 justify-center items-start lg:items-center font-sans'>
         {id === 1 && <h3 className=' text-sm tracking-widest font-medium text-orange '>{newProduct}</h3>}

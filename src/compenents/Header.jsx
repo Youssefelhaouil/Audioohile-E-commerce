@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <>
-      <div className=' pt-8 px-[165px] lg:px-6  flex justify-between border-b-2 border-gray-200 pb-8 z-20  '>
+      <div className=' pt-8 px-[165px] lg:px-6  flex justify-between  pb-8 z-20  '>
         <div className='flex  gap-8 '>
           {menu ?
             <MdClose onClick={() => setMenu(false)}
@@ -46,6 +46,7 @@ function Header() {
 
         </div>
       }
+      <hr className='mx-[165px] bg-light-gray-1 lg:mx-0' />
 
 
 

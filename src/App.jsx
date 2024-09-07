@@ -5,21 +5,25 @@ import Headphones from "./pages/Headphones"
 import Speakers from "./pages/Speakers"
 import Checkout from "./pages/Checkout"
 import ProductDetails from "./pages/ProductDetails"
+import { ProductProvider } from "./Context/ProductContext"
 
 function App() {
+
+
 
   return (
     <>
       <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/earphones" element={<Earphones />} />
-          <Route path="/headphones" element={<Headphones />} />
-          <Route path="/speakers" element={<Speakers /> } />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/product" element={<ProductDetails />} />
-
-        </Routes>
+        <ProductProvider>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/earphones" element={<Earphones />} />
+            <Route path="/headphones" element={<Headphones />} />
+            <Route path="/speakers" element={<Speakers />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/product/:productId" element={<ProductDetails />} />
+          </Routes>
+        </ProductProvider>
       </Router>
 
 

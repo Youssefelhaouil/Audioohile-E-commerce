@@ -14,6 +14,7 @@ function Earphones() {
       name: "YX1 WIRELESS",
       type: "EARPHONES",
       description: "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+      url: "yx1"
 
     }
   ]
@@ -30,7 +31,7 @@ function Earphones() {
       </div>
       <div className='flex flex-col gap-10 px-[165px] lg:px-[24px] mt-[40px] pb-10'>
         {earphones.map((earphone, index) => <div key={index} className='h-[560px] lg:h-auto w-full flex flex-row  even:flex-row-reverse lg:even:flex-col lg:flex-col lg:items-center lg:justify-center   gap-16  '>
-          <ProductCard name={earphone.name} img={earphone.img} newProduct={earphone.newProduct} id={earphone.id} type={earphone.type} description={earphone.description} />
+          <ProductCard name={earphone.name} img={earphone.img} newProduct={earphone.newProduct} id={earphone.id} type={earphone.type} description={earphone.description} url={earphone.url}/>
         </div>)}
       </div>
 

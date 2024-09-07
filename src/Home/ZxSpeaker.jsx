@@ -1,5 +1,6 @@
 import React from 'react'
 import Speaker2 from "../assets/Speaker2.png"
+import { Link } from 'react-router-dom'
 
 function ZxSpeaker() {
     return (
@@ -14,7 +15,9 @@ function ZxSpeaker() {
                             phenomenally built to deliver truly remarkable
                             <br />sound.
                         </p>
-                        <button className='w-[160px] h-[48px] bg-black hover:bg-[#4C4C4C] text-white  text-[13px]'>SEE PRODUCT</button>
+                        <Link to="/product/zx9">
+                            <button className='w-[160px] h-[48px] bg-black hover:bg-[#4C4C4C] text-white  text-[13px]'>SEE PRODUCT</button>
+                        </Link>
                     </div>
 
                 </div>

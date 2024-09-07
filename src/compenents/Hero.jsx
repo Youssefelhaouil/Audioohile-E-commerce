@@ -12,7 +12,7 @@ function Hero() {
                      build quality made for the passionate music <br />
                      enthusiast.
                 </p>
-                <Link to="/product">
+                <Link to="/product/xx99-II">
                     <button className='h-[48px] w-[160px] text-white font-medium font-sans text-sm bg-orange hover:bg-accent-orange  '>SEE PRODUCT</button>
                 </Link>
 

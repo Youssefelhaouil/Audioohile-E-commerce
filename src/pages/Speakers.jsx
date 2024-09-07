@@ -15,6 +15,7 @@ function Speakers() {
       name: "ZX9",
       type: "SPEAKER",
       description: "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+      url: "zx9"
 
     },
     {
@@ -23,6 +24,8 @@ function Speakers() {
       name: "ZX7",
       type: "SPEAKER",
       description: "Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.",
+      url: "zx7"
+
     }
   ];
 
@@ -39,7 +42,7 @@ function Speakers() {
 
       <div className='flex flex-col gap-16 px-[165px] lg:px-[24px] mt-[40px] pb-10'>
         {speakers.map((speaker, index) => <div key={index} className='h-[560px] lg:h-auto w-full flex flex-row  even:flex-row-reverse lg:even:flex-col lg:flex-col lg:items-center lg:justify-center   gap-16  '>
-          <ProductCard name={speaker.name} img={speaker.img} newProduct={speaker.newProduct} id={speaker.id} type={speaker.type} description={speaker.description} />
+          <ProductCard name={speaker.name} img={speaker.img} newProduct={speaker.newProduct} id={speaker.id} type={speaker.type} description={speaker.description} url={speaker.url} />
         </div>)}
       </div>
 

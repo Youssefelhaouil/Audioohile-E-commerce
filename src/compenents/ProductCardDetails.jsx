@@ -1,9 +1,13 @@
 import React from 'react';
 import { LuPlus } from "react-icons/lu";
 import { FiMinus } from "react-icons/fi";
+import { useContext } from 'react';
+import { ProductContext } from '../Context/ProductContext';
 
 
-function ProductCardDetails({ProductData}) {
+function ProductCardDetails({ ProductData }) {
+    const { Qty, setQty } = useContext(ProductContext)
+
 
 
     return (
@@ -18,12 +22,11 @@ function ProductCardDetails({ProductData}) {
                         {ProductData.newProd && <h3 className=' text-sm tracking-widest font-medium text-orange '>NEW PRODUCT</h3>}
                         <h1 className='font-bold text-h2'>{ProductData.name} <br />{ProductData.category}</h1>
                         <p className='font-medium text-base text-black text-opacity-60 lg:text-pretty lg:text-center w-full'>{ProductData.description}</p>
-                        <h1 className='text-h6 font-bold'>$ {ProductData.price}</h1>
-                        <div className='mt-4 flex gap-4 md:w-full'>
-                            <span className='w-32 md:w-full h-12 bg-light-gray-1 flex justify-between items-center px-4 gap-2 font-medium '>
-                                <FiMinus className='cursor-pointer text-sm text-black hover:text-orange' />
-                                1
-                                <LuPlus className='cursor-pointer text-sm text-black hover:text-orange' />
+                        <h1 className='text-h6 font-bold'>$ {ProductData.price.toLocaleString('en-US')}</h1>
+                        <div className='mt-4 flex gap-4 md:w-full '>
+                            <span className=' w-32 md:w-full h-12 bg-light-gray-1  px-4 gap-2 font-semibold relative text-center pt-3'>
+                                {Qty > 1 && <FiMinus onClick={() => setQty(Q => Q - 1)} className='cursor-pointer absolute top-4  text-sm text-black hover:text-orange' />}                                {Qty}
+                                <LuPlus onClick={() => setQty(Q => Q + 1)} className='cursor-pointer absolute right-4 top-4 text-sm text-black hover:text-orange' />
                             </span>
                             <button className=' w-40 md:w-full h-12 bg-orange hover:bg-accent-orange text-white'>ADD TO CART</button>
                         </div>

@@ -7,6 +7,7 @@ import Nav from "./Nav"
 import Cart from './Cart';
 import ProductCategory from './ProductCategory';
 import { ProductContext } from '../Context/ProductContext';
+import { Link } from 'react-router-dom';
 
 
 
@@ -35,7 +36,7 @@ function Header() {
             <GiHamburgerMenu onClick={toggleMenu}
               className=' hidden lg:block lg:font-bold lg:text-h4 lg:text-white cursor-pointer' />
           }
-          <img src={logo} alt="logo" height={25} width={143} />
+          <Link to="/"><img src={logo} alt="logo" height={25} width={143} /></Link>
         </div>
         <div className='block lg:hidden'>
           <Nav />
@@ -44,7 +45,7 @@ function Header() {
           {CartItems.length > 0 && <p className='absolute h-4 w-4 bg-orange text-white font-bold text-sm flex justify-center items-center rounded-full right-[-6px] top-[-10px]'>{totalQty}</p>}          <IoCartOutline onClick={toggleCart} className='text-white text-h5 cursor-pointer font-bold ' />
         </div>
         {cart &&
-          <div className='fixed top-0 right-0 bottom-0 left-0 h-screen bg-black bg-opacity-20'>
+          <div className='fixed top-0 right-0 bottom-0 left-0 h-screen bg-black bg-opacity-20 '>
             <Cart toggleCart={toggleCart} />
           </div>
         }

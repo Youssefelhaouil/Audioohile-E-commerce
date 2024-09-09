@@ -48,7 +48,7 @@ return (
                 <div className='w-1/2 md:w-full flex flex-col gap-4 justify-center md:justify-start items-start  font-sans'>
                     {ProductData.newProd && <h3 className=' text-sm tracking-widest font-medium text-orange '>NEW PRODUCT</h3>}
                     <h1 className='font-bold text-h2'>{ProductData.name} <br />{ProductData.category}</h1>
-                    <p className='font-medium text-base text-black text-opacity-60 lg:text-pretty lg:text-center w-full'>{ProductData.description}</p>
+                    <p className='font-medium text-base text-black text-opacity-60 lg:text-pretty lg:text-start w-full'>{ProductData.description}</p>
                     <h1 className='text-h6 font-bold'>$ {ProductData.price.toLocaleString('en-US')}</h1>
                     <div className='mt-4 flex gap-4 md:w-full '>
                         <span className=' w-32 md:w-full h-12 bg-light-gray-1  px-4 gap-2 font-semibold relative text-center pt-3'>

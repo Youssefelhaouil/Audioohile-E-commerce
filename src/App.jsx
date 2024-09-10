@@ -6,6 +6,7 @@ import Speakers from "./pages/Speakers"
 import Checkout from "./pages/Checkout"
 import ProductDetails from "./pages/ProductDetails"
 import { ProductProvider } from "./Context/ProductContext"
+import { Toaster } from "react-hot-toast"
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
           </Routes>
         </ProductProvider>
       </Router>
+      <Toaster />
+
 
 
     </>

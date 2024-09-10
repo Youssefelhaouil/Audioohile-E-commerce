@@ -1,4 +1,3 @@
-import logo from '../assets/logo.png';
 import Nav from './Nav';
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -9,7 +8,7 @@ function Footer() {
     <>
       <div className="relative mt-10 h-[365px] lg:h-auto py-[60px] w-full bg-black px-[165px] lg:px-[24px] ">
         <div className='flex justify-between lg:flex-col lg:justify-start sm:items-center lg:gap-4  '>
-          <img src={logo} alt="Logo"
+          <img src="src/assets/Logo.png" alt="Logo"
             className='h-6 w-[143px]' />
           <Nav />
         </div>

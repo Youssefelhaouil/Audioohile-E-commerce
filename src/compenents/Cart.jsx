@@ -7,12 +7,12 @@ import { ProductContext } from '../Context/ProductContext';
 
 
 function Cart({ toggleCart }) {
-    const { setQty, Qty, CartItems, setCartItems, totalQty, GlobalTotal, DeleteItem } = useContext(ProductContext)
+    const {  Qty, CartItems, setCartItems, totalQty, GlobalTotal, DeleteItem } = useContext(ProductContext)
 
 
     return (
         <>
-            <div className='md:grid md:place-items-center md:w-fit'>
+            <div className='md:grid md:place-items-center md:w-fit '>
                 <div className='ml-8 relative flex flex-col  gap-6 bg-white w-[377px] h-auto p-6 float-end  mt-[128px] mr-[12%] rounded-md font-sans' >
                     <div className='flex justify-between pt-2'>
                         {CartItems.length > 0 ?
@@ -41,9 +41,9 @@ function Cart({ toggleCart }) {
                                 <div className='flex gap-4'>
                                     <span className=' w-24  h-8 bg-light-gray-1  px-4 gap-2 font-semibold relative text-center pt-1'>
                                         {Qty > 1 &&
-                                            <FiMinus onClick={() => setQty(Q => Q - 1)} className='cursor-pointer absolute top-2  text-sm text-black hover:text-orange' />}
+                                            <FiMinus className='cursor-pointer absolute top-2  text-sm text-black hover:text-orange' />}
                                         {itemCart.itemQty}
-                                        <LuPlus onClick={() => setQty(Q => Q + 1)} className='cursor-pointer absolute right-4 top-2 text-sm text-black hover:text-orange' />
+                                        <LuPlus  className='cursor-pointer absolute right-4 top-2 text-sm text-black hover:text-orange' />
                                     </span>
                                     <IoIosClose onClick={() => DeleteItem(itemCart.itemName)} className=' text-2xl cursor-pointer text-black hover:text-orange' />
 

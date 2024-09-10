@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { ProductContext } from '../Context/ProductContext';
 
 
-function Summary({setConfirmed}) {
+function Summary({handleConfirm} ) {
     const { CartItems,GlobalTotal } = useContext(ProductContext)
     const Vat= GlobalTotal*0.2;
     return (
@@ -42,7 +42,7 @@ function Summary({setConfirmed}) {
                         <p className='pointer-cursor text-h6 font-bold text-orange  '>$ {GlobalTotal+50}</p>
                     </div>
                 </div>
-                <button onClick={()=>setConfirmed(true)} className='w-full h-12 bg-orange hover:bg-accent-orange cursor-pointer text-white '>CONTINUE</button>
+                <button onClick={handleConfirm} className='w-full h-12 bg-orange hover:bg-accent-orange cursor-pointer text-white '>CONTINUE</button>
             </div>
             
 

@@ -45,7 +45,7 @@ function Header() {
           {CartItems.length > 0 && <p className='absolute h-4 w-4 bg-orange text-white font-bold text-sm flex justify-center items-center rounded-full right-[-6px] top-[-10px]'>{totalQty}</p>}          <IoCartOutline onClick={toggleCart} className='text-white text-h5 cursor-pointer font-bold ' />
         </div>
         {cart &&
-          <div className='fixed top-0 right-0 bottom-0 left-0 h-screen bg-black bg-opacity-20 '>
+          <div className='fixed top-0 right-0 bottom-0 left-0 h-screen bg-black bg-opacity-20 z-20 '>
             <Cart toggleCart={toggleCart} />
           </div>
         }

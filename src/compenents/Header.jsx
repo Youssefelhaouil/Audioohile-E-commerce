@@ -1,5 +1,4 @@
 import React, { useContext, useState,useEffect } from 'react';
-import logo from '/src/assets/logo.png';
 import { IoCartOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
@@ -49,7 +48,7 @@ function Header() {
             <GiHamburgerMenu onClick={toggleMenu}
               className=' hidden lg:block lg:font-bold lg:text-h4 lg:text-white cursor-pointer' />
           }
-          <Link to="/"><img src={logo} alt="logo" height={25} width={143} /></Link>
+          <Link to="/"><img src="src/assets/Logo.png" alt="logo" height={25} width={143} /></Link>
         </div>
         <div className='block lg:hidden'>
           <Nav />

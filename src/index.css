@@ -25,7 +25,7 @@
 
 @media screen and (max-width:1024px) {
     .homeHero{
-      background: url('"/assets/LgHero.png')no-repeat center center/cover;
+      background: url('/assets/LgHero.png');
     }
     .speaker2{
       background-image: url("/assets/ZxImgII.png");

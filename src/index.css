@@ -4,19 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.homeHero{
-    background-image: url("/assets/HomeHero.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.homeHero {
+  background-image: url("/assets/HomeHero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.speaker1{
+
+.speaker1 {
   background-image: url("/assets/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.speaker2{
+
+.speaker2 {
   background-image: url("/assets/speakerBg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -24,12 +26,19 @@
 }
 
 @media screen and (max-width:1024px) {
-    .homeHero{
-      background: url('/assets/LgHero.png');
-    }
-    .speaker2{
-      background-image: url("/assets/ZxImgII.png");
-     
-    }
-  
+  .homeHero {
+    background: url("/assets/heroTwo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+  .speaker2 {
+    background-image: url("/assets/ZxImgII.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+}

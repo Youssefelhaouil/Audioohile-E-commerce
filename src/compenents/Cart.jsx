@@ -40,8 +40,8 @@ function Cart({ toggleCart }) {
                                 </div>
                                 <div className='flex gap-4'>
                                     <span className=' w-24  h-8 bg-light-gray-1  px-4 gap-2 font-semibold relative text-center pt-1'>
-                                        {Qty > 1 &&
-                                            <FiMinus className='cursor-pointer absolute top-2  text-sm text-black hover:text-orange' />}
+                                        
+                                            <FiMinus className='cursor-pointer absolute top-2  text-sm text-black hover:text-orange' />
                                         {itemCart.itemQty}
                                         <LuPlus  className='cursor-pointer absolute right-4 top-2 text-sm text-black hover:text-orange' />
                                     </span>

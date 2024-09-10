@@ -33,6 +33,7 @@ function ProductCardDetails({ ProductData }) {
                     return [...prev, cartItem];
                 }
             });
+        setQty(1)
 }
 
 

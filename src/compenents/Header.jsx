@@ -1,5 +1,5 @@
 import React, { useContext, useState,useEffect } from 'react';
-import logo from '../assets/logo.png';
+import logo from '/src/assets/logo.png';
 import { IoCartOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";

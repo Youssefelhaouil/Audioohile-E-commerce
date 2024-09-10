@@ -1,5 +1,5 @@
 import React from 'react';
-import YxEarphone from "../assets/Earphone2.png"
+import YxEarphone from "/assets/Earphone2.png"
 import { Link } from 'react-router-dom';
 
 function ZxSpeakerIII() {

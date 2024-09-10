@@ -3,7 +3,7 @@ export const data = [
         id: 1,
         url: "yx1",
         name: "YX1 Wireless ",
-        img: "/src/assets/Earphone.png",
+        img: "/public/assets/Earphone.png",
         category: "EARPHONES",
         newProd: true,
         price: 599,
@@ -35,25 +35,25 @@ export const data = [
             }
         ],
         gallery: {
-            first: "/src/assets/ProdDetails/yx1gallery1.png",
-            second: "/src/assets/Earphone2.png",
-            third: "/src/assets/ProdDetails/yx1gallery3.png"
+            first: "/public/assets/ProdDetails/yx1gallery1.png",
+            second: "/public/assets/Earphone2.png",
+            third: "/public/assets/ProdDetails/yx1gallery3.png"
         },
         others: [
             {
                 url: "xx99-I",
                 name: "XX99 Mark I",
-                img: "/src/assets/Headphone.png"
+                img: "/public/assets/Headphone.png"
             },
             {
                 url: "xx59",
                 name: "XX59",
-                img: "/src/assets/HeadphoneXX59.png"
+                img: "/public/assets/HeadphoneXX59.png"
             },
             {
                 url: "zx9",
                 name: "ZX9 Speaker",
-                img: "/src/assets/Speaker.png"
+                img: "/public/assets/Speaker.png"
             }
         ]
     },
@@ -61,7 +61,7 @@ export const data = [
         id: 2,
         url: "xx59",
         name: "XX59 ",
-        img: "/src/assets/HeadphoneXX59.png",
+        img: "/public/assets/HeadphoneXX59.png",
         category: "HEADPHONES",
         newProd: false,
         price: 899,
@@ -89,25 +89,25 @@ export const data = [
             }
         ],
         gallery: {
-            first: "/src/assets/ProdDetails/XX59galerry1.png",
-            second: "/src/assets/ProdDetails/xx59gallery2.png",
-            third: "/src/assets/ProdDetails/XX59GALLERY3.png"
+            first: "/public/assets/ProdDetails/XX59galerry1.png",
+            second: "/public/assets/ProdDetails/xx59gallery2.png",
+            third: "/public/assets/ProdDetails/XX59GALLERY3.png"
         },
         others: [
             {
                 url: "xx99-II",
                 name: "XX99 Mark II",
-                img: "/src/assets/HeadphoneXX99.png"
+                img: "/public/assets/HeadphoneXX99.png"
             },
             {
                 url: "xx99-I",
                 name: "XX99 Mark I",
-                img: "/src/assets/Headphone.png"
+                img: "/public/assets/Headphone.png"
             },
             {
                 url: "zx9",
                 name: "ZX9 Speaker",
-                img: "/src/assets/Speaker.png"
+                img: "/public/assets/Speaker.png"
             }
         ]
     },
@@ -115,7 +115,7 @@ export const data = [
         id: 3,
         url: "xx99-I",
         name: "XX99 Mark I ",
-        img: "/src/assets/Headphone.png",
+        img: "/public/assets/Headphone.png",
         category: "HEADPHONES",
         newProd: false,
         price: 1750,
@@ -140,25 +140,25 @@ export const data = [
             }
         ],
         gallery: {
-            first: "/src/assets/ProdDetails/xx99Igallery1.png",
-            second: "/src/assets/ProdDetails/xx99Igallery2.png",
-            third: "/src/assets/ProdDetails/xx99Igallery3.png"
+            first: "/public/assets/ProdDetails/xx99Igallery1.png",
+            second: "/public/assets/ProdDetails/xx99Igallery2.png",
+            third: "/public/assets/ProdDetails/xx99Igallery3.png"
         },
         others: [
             {
                 url: "xx99-II",
                 name: "XX99 Mark II",
-                img: "/src/assets/HeadphoneXX99.png"
+                img: "/public/assets/HeadphoneXX99.png"
             },
             {
                 url: "xx59",
                 name: "XX59",
-                img: "/src/assets/HeadphoneXX59.png"
+                img: "/public/assets/HeadphoneXX59.png"
             },
             {
                 url: "zx9",
                 name: "ZX9 Speaker",
-                img: "/src/assets/Speaker.png"
+                img: "/public/assets/Speaker.png"
             }
         ]
     },
@@ -166,7 +166,7 @@ export const data = [
         id: 4,
         url: "xx99-II",
         name: "XX99 Mark II ",
-        img: "/src/assets/HeadphoneXX99.png",
+        img: "/public/assets/HeadphoneXX99.png",
         category: "HEADPHONES",
         newProd: true,
         price: 2999,
@@ -198,25 +198,25 @@ export const data = [
             }
         ],
         gallery: {
-            first: "/src/assets/articleMb.png",
-            second: "/src/assets/ProdDetails/X99IIHeadphone2.png",
-            third: "/src/assets/ProdDetails/X99IIHeadphone3.png"
+            first: "/public/assets/articleMb.png",
+            second: "/public/assets/ProdDetails/X99IIHeadphone2.png",
+            third: "/public/assets/ProdDetails/X99IIHeadphone3.png"
         },
         others: [
             {
                 url: "xx99-I",
                 name: "XX99 Mark I",
-                img: "/src/assets/Headphone.png"
+                img: "/public/assets/Headphone.png"
             },
             {
                 url: "xx59",
                 name: "XX59",
-                img: "/src/assets/HeadphoneXX59.png"
+                img: "/public/assets/HeadphoneXX59.png"
             },
             {
                 url: "zx9",
                 name: "ZX9 Speaker",
-                img: "/src/assets/Speaker.png"
+                img: "/public/assets/Speaker.png"
             }
         ]
     },
@@ -224,7 +224,7 @@ export const data = [
         id: 5,
         url: "zx7",
         name: "ZX7 ",
-        img: "/src/assets/SpeakerIII.png",
+        img: "/public/assets/SpeakerIII.png",
         category: "SPEAKER",
         newProd: false,
         price: 3500,
@@ -256,25 +256,25 @@ export const data = [
             }
         ],
         gallery: {
-            first: "/src/assets/ProdDetails/zx7gallery1.png",
-            second: "/src/assets/ProdDetails/zx7gallery2.png",
-            third: "/src/assets/ProdDetails/zx7gallery3.png"
+            first: "/public/assets/ProdDetails/zx7gallery1.png",
+            second: "/public/assets/ProdDetails/zx7gallery2.png",
+            third: "/public/assets/ProdDetails/zx7gallery3.png"
         },
         others: [
             {
                 url: "zx9",
                 name: "ZX9 Speaker",
-                img: "/src/assets/Speaker.png"
+                img: "/public/assets/Speaker.png"
             },
             {
                 url: "xx99-I",
                 name: "XX99 Mark I",
-                img: "/src/assets/Headphone.png"
+                img: "/public/assets/Headphone.png"
             },
             {
                 url: "xx59",
                 name: "XX59",
-                img: "/src/assets/HeadphoneXX59.png"
+                img: "/public/assets/HeadphoneXX59.png"
             }
         ]
     },
@@ -282,7 +282,7 @@ export const data = [
         id: 6,
         url: "zx9",
         name: "ZX9 SPEAKER",
-        img: "/src/assets/Speaker.png",
+        img: "/public/assets/Speaker.png",
         category: "SPEAKER",
         newProd: true,
         price: 4500,
@@ -314,25 +314,25 @@ export const data = [
             }
         ],
         gallery: {
-            first: "/src/assets/ProdDetails/zx9gallery1.png",
-            second: "/src/assets/ProdDetails/zx9gallery2.png",
-            third: "/src/assets/ProdDetails/zx9gallery3.png"
+            first: "/public/assets/ProdDetails/zx9gallery1.png",
+            second: "/public/assets/ProdDetails/zx9gallery2.png",
+            third: "/public/assets/ProdDetails/zx9gallery3.png"
         },
         others: [
             {
                 url: "zx7",
                 name: "ZX7 Speaker",
-                img: "/src/assets/SpeakerIII.png"
+                img: "/public/assets/SpeakerIII.png"
             },
             {
                 url: "xx99-I",
                 name: "XX99 Mark I",
-                img: "/src/assets/Headphone.png"
+                img: "/public/assets/Headphone.png"
             },
             {
                 url: "xx59",
                 name: "XX59",
-                img: "/src/assets/HeadphoneXX59.png"
+                img: "/public/assets/HeadphoneXX59.png"
             }
         ]
     }

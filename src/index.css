@@ -5,19 +5,19 @@
 @tailwind utilities;
 
 .homeHero{
-    background-image: url("src/assets/HomeHero.png");
+    background-image: url("/assets/HomeHero.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .speaker1{
-  background-image: url("src/assets/bg.png");
+  background-image: url("/assets/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .speaker2{
-  background-image: url("src/assets/speakerBg.png");
+  background-image: url("/assets/speakerBg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,10 +25,10 @@
 
 @media screen and (max-width:1024px) {
     .homeHero{
-      background: url('src/assets/LgHero.png')no-repeat center center/cover;
+      background: url('"/assets/LgHero.png')no-repeat center center/cover;
     }
     .speaker2{
-      background-image: url("src/assets/ZxImgII.png");
+      background-image: url("/assets/ZxImgII.png");
      
     }
   

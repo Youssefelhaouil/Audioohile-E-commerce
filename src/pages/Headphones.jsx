@@ -9,7 +9,7 @@ function Headphones() {
   const headphones = [
     {
       id: 1,
-      img: 'src/assets/HeadphoneXX99.png',
+      img: '/assets/HeadphoneXX99.png',
       newProduct: "NEW PRODUCT",
       name: "XX99 Mark II",
       type: "HEADPHONES",
@@ -18,7 +18,7 @@ function Headphones() {
     },
     {
       id: 2,
-      img: 'src/assets/Headphone.png',
+      img: '/assets/Headphone.png',
       name: "XX99 Mark I ",
       type: "HEADPHONES",
       description: "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
@@ -27,7 +27,7 @@ function Headphones() {
     },
     {
       id: 3,
-      img: 'src/assets/HeadphoneXX59.png',
+      img: '/assets/HeadphoneXX59.png',
       name: "XX59",
       type: "HEADPHONES",
       description: "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",

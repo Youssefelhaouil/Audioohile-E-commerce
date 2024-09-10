@@ -170,7 +170,7 @@ function CheckoutForm({ formValidation, setFormValidation, formErrors }) {
                         </div>
                         :
                         <div className=' pt-4 flex items-center gap-8'>
-                            <img src="src/assets/cashImg.png" alt="cash on delivery img"
+                            <img src="/assets/cashImg.png" alt="cash on delivery img"
                                 className='h-12 w-12' />
                             <p className='font-medium text-base text-gray-400'>The ‘Cash on Delivery’ option enables you to pay in cash
                                 when our delivery courier arrives at your residence.

@@ -1,7 +1,7 @@
 import React from 'react';
-import ArticleImg from "../assets/articleImg.png"
-import ArticleTb from "../assets/articleTb.png"
-import ArticleMb from "../assets/articleMb.png"
+import ArticleImg from "/assets/articleImg.png"
+import ArticleTb from "/assets/articleTb.png"
+import ArticleMb from "/assets/articleMb.png"
 
 function Article() {
     return (

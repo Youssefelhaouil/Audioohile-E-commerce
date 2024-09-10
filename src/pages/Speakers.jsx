@@ -10,7 +10,7 @@ function Speakers() {
   const speakers = [
     {
       id: 1,
-      img: 'src/assets/Speaker.png',
+      img: '/assets/Speaker.png',
       newProduct: "NEW PRODUCT",
       name: "ZX9",
       type: "SPEAKER",
@@ -20,7 +20,7 @@ function Speakers() {
     },
     {
       id: 2,
-      img: 'src/assets/SpeakerIII.png',
+      img: '/assets/SpeakerIII.png',
       name: "ZX7",
       type: "SPEAKER",
       description: "Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.",

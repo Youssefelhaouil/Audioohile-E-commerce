@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Earphone from '../assets/Earphone.png'
-import Headphone from '../assets/Headphone.png'
-import Speaker from '../assets/Speaker.png'
+import Earphone from '/assets/Earphone.png'
+import Headphone from '/assets/Headphone.png'
+import Speaker from '/assets/Speaker.png'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 function ProductCategory() {

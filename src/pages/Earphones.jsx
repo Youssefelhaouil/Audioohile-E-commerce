@@ -9,7 +9,7 @@ function Earphones() {
   const earphones = [
     {
       id: 1,
-      img: 'src/assets/Earphone.png',
+      img: '/assets/Earphone.png',
       newProduct: "NEW PRODUCT",
       name: "YX1 WIRELESS",
       type: "EARPHONES",

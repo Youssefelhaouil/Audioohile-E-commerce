@@ -1,5 +1,5 @@
 import React from 'react'
-import Speaker2 from "../assets/Speaker2.png"
+import Speaker2 from "/assets/Speaker2.png"
 import { Link } from 'react-router-dom'
 
 function ZxSpeaker() {

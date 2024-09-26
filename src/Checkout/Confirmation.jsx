@@ -41,7 +41,7 @@ function ChekoutConfirmation() {
                             </div>
                             {(showMore && cartItemsSlice.length > 0) &&
                                 cartItemsSlice.map((itemSlice, index) =>
-                                    <div className=' flex justify-between items-center'>
+                                    <div key={index} className=' flex justify-between items-center'>
                                         <div className='flex items-center  gap-2'>
                                             <img src={itemSlice.itemImg} alt={`${itemSlice.itemName} image`} className='h-12 w-12' />
                                             <div className='flex flex-col'>
@@ -52,9 +52,9 @@ function ChekoutConfirmation() {
                                         <h1>x{itemSlice.itemQty}</h1>
                                     </div>)}
                             <hr className='h-[1px] w-full bg-gray-400' />
-                            {!showMore ?
-                                <p onClick={() => setShowMore(!showMore)} className='text-center text-sm font-semibold text-gray-400 hover:underline cursor-pointer'>and {cartItemsSlice.length} other item(s)</p>
-                                :  <p onClick={() => setShowMore(!showMore)} className='text-center text-sm font-semibold text-gray-400 hover:underline cursor-pointer'>Hide {cartItemsSlice.length}  item(s)</p>}
+                            {(!showMore && cartItemsSlice.length > 0) && 
+                                <p onClick={() => setShowMore(!showMore)} className='text-center text-sm font-semibold text-gray-400 hover:underline cursor-pointer'>and {cartItemsSlice.length} other item(s)</p>}
+                            {showMore && <p onClick={() => setShowMore(!showMore)} className='text-center text-sm font-semibold text-gray-400 hover:underline cursor-pointer'>Hide {cartItemsSlice.length}  item(s)</p>}    
                         </div>
                         <div className='w-full flex flex-col justify-center md:items-center px-2 bg-black rounded-ee-md rounded-se-md'>
                             <h1 className='text-base font-medium text-gray-500' >GRAND TOTAL</h1>
